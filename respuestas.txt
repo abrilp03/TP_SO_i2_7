@@ -1,0 +1,122 @@
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Yo usé git pull y el link del repositorio, ustedes qué hicieron?
+Usando un git pull "url del repo".
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Hice un git pull con el link del repositorio de Gamma, al igual que antes con el repositorio de Beta, y sí se me actualizó el repositorio.
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Si pude hacerlo mediante un pull del repo de ALFA.
+
+d-¿Los datos que tenia en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+Los datos no se pierden al actualizar el fork
+
+e- Moreira Lautaro
+history+
+git clone https://github.com/lauty2001moreira/TP_SO_i2_7.git
+pwd
+echo "">NuevoDato.txt
+ls
+rm NuevoDato.txt 
+cd TP_SO_i2_7/
+echo "">NuevoDato.txt
+git add .
+git status
+git commit -m  "txt"
+git push
+
+PALOMARES, ABRIL
+229 cd Documentos/
+230 cd Github/
+231 ls
+232 TP_SO_i2_7/
+233 cd TP_SO_i2_7/
+234 echo "Abril Palomares, 192.168.1.30, 10:32" > "Gamma.txt"
+235 ls
+236 git status
+237 git add Gamma.txt
+238 git commit -m "Agregando Gamma"
+239 git config --global user.email "abrilpalomares33@gmail.com"
+240 git config --global user.name "abrilp03"
+241 git commit -m "Agregando Gamma"
+242 git status
+243 git push
+244 git help
+245 git push
+246 git pull -help
+247 cd Documentos/
+248 cd Github/
+249 git clone https://github.com/abrilp03/TP_SO_i2_7.git
+250 cd TP_SO_i2_7/
+251 echo "Abril Palomares, 192.168.1.30, 10:57" > "Gamma.txt"
+252 git add Gamma.txt
+253 git commit -m "Lo borre sin querer"
+254 git push origin master
+255 git push
+256 git status
+257 git pull
+258 git pull https://github.com/lauty2001moreira/TP_SO_i2_7.git https://github.com/abrilp03/TP_SO_i2_7.git
+259 git pull https://github.com/lauty2001moreira/TP_SO_i2_7.git master
+260 git pull https://github.com/lauty2001moreira/TP_SO_i2_7.git
+261 git pull
+262 git push origin master
+263 echo "Abril Palomares, 192.168.1.30, 10:57" > fork.txt
+264 cat fork.txt
+265 git add fork.txt
+266 git status
+267 git commit -m "Agregando porque lo hice en un archivo diferente"
+268 git push origin master
+269 git pull https://github.com/HernanPotenza/TP_SO_i2_7.git
+270 git status
+271 git push origin master
+272 cd ..
+273 history > "HistorialGamma.txt"
+
+ 
+ HERNAN POTENZA
+18 git clone
+19 git clone https://github.com/HernanPotenza/TP_SO_i2_7
+20 git pull
+21 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+22 git config --global user.email "hernanpotenza15@gmail.com"
+23 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+24 git pull https://github.com/abrilp03/TP_SO_i2_7
+25 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+26 git pull https://github.com/abrilp03/TP_SO_i2_7
+27 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+28 git pull https://github.com/abrilp03/TP_SO_i2_7
+29 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+30 git pull https://github.com/abrilp03/TP_SO_i2_7
+31 git pull https://github.com/lauty2001moreira/TP_SO_i2_7
+32 git push
+33 git pull
+34 git push
+35 git push origin master
+36 git status
+37 git commit -m "Testeo 1"
+38 git push
+39 git add .
+40 git add.
+41 git add
+42 git add .
+43 git status
+44 git push
+45 git status
+46 gis tatus
+47 git status
+48 git commit -m "Testeo 2"
+49 git push
+50 git pull
+51 git pull
+52 git status
+53 git add .
+54 git status
+55 git pull
+56 git status
+57 git commit -m "Test 3"
+58 git status
+59 git push
+60 history
+61 history > historialTp2.txt
