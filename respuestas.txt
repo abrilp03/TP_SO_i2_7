@@ -74,7 +74,8 @@ PALOMARES, ABRIL
 272 cd ..
 273 history > "HistorialGamma.txt"
 
-
+ 
+ HERNAN POTENZA
 18 git clone
 19 git clone https://github.com/HernanPotenza/TP_SO_i2_7
 20 git pull
